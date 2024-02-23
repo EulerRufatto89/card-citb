@@ -1,0 +1,163 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  .school-plan-title,
+  .free-plan-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .school-plan-title {
+    color: #43A047;
+  }
+  
+  .free-plan-title {
+    color: #E53935;
+  }
+  
+  .free-plan-card,
+  .school-plan-card,
+  .mat-card {
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  
+  .check-icon {
+    color: #43A047;
+  }
+  
+  .close-icon {
+    color: red;
+  }
+  
+  .circle-icon {
+    color: grey;
+  }
+  
+  :host,
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .card-header {
+    color: #e53935;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .card-body p {
+    margin: 16px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .icon,
+  .material-symbols-outlined {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  
+  .card-footer,
+  .card-button,
+  button.mat-raised-button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  button {
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  button:hover {
+    background: #b71c1c;
+    color: black;
+  }
+  
+  .consultar-title {
+    color: rgb(2, 2, 2);
+    font-size: 2rem;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  
+  .material-symbols-outlined {
+    font-variant: normal;
+    font-feature-settings: 'liga' 0;
+    vertical-align: middle;
+  }
+  
+  .material-symbols-outlined.icon-red,
+  .material-symbols-outlined.icon-green {
+    color: #e53935;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 0 40px;
+  }
+  
+  .mat-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  button.mat-raised-button {
+    margin-top: auto;
+    align-self: center;
+    margin-bottom: 16px;
+  }
+  
+  .school-plan-card button {
+    background-color: #43a047;
+  }
+  
+  .free-plan-card button {
+    background-color: #e53935;
+  }
+  
+  .mat-card-content p,
+  .mat-card-content div {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+    }
+  }
+  
